@@ -1,0 +1,15 @@
+Script started on Sat 20 Apr 2024 04:23:01 PM HST
+]0;rramos26@uhx02:~/project2[?1034huhx02:/home/r/rramos26/project2% output[K[K[K[K[K[Kmake -f release.mak
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -o project llist.o user_interface.o
+]0;rramos26@uhx02:~/project2uhx02:/home/r/rramos26/project2% make clean -f debug.mak
+rm -f project_debug llist.o user_interface.o
+]0;rramos26@uhx02:~/project2uhx02:/home/r/rramos26/project2% make[K[K[K[Kmake -f r[Kdebug.mak
+g++ -ansi -pedantic-errors -Wall -c -D DEBUGMODE llist.cpp
+g++ -ansi -pedantic-errors -Wall -c -D DEBUGMODE user_interface.cpp
+g++ -o project_debug llist.o user_interface.o
+]0;rramos26@uhx02:~/project2uhx02:/home/r/rramos26/project2% exit
+exit
+
+Script done on Sat 20 Apr 2024 04:23:47 PM HST

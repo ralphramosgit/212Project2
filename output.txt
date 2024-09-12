@@ -1,0 +1,388 @@
+Script started on Sat 20 Apr 2024 04:25:29 PM HST
+]0;rramos26@uhx02:~/project2[?1034huhx02:/home/r/rramos26/project2% ./project
+Welcome to the Bank Database program
+
+This program lets you to manage customer bank information. 
+
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+addas     adds    addajdkf
+Invalid Input
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+add
+You are now using add command
+Enter a positive Integer:
+-10
+Error: User input must Be Positive
+Enter a positive Integer:
+1000    3000
+Enter name:
+COle   ole Du
+Enter Address and type '/' followed by enter to finish 
+91-3000 Cane St.,
+Pearl City HI,
+96700/
+
+Adding account: 3000 to database
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+ad
+You are now using add command
+Enter a positive Integer:
+1000
+Enter name:
+Adam Lee
+Enter Address and type '/' followed by enter to finish 
+94-1000 Branch St.,
+Kape olei HI,
+910000 /
+
+Adding account: 1000 to database
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+find 300    
+Enter a positive Integer:
+3000
+
+Finding Record 3000 
+
+Record With Account Number: 3000 Found
+Accountno: 3000
+Name: Cole Du 
+Address: 
+91-3000 Cane St.,
+Pearl City HI,
+96700 
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+printall
+
+Printing All Records
+
+***************
+Accountno: 1000
+Name: Adam Lee
+Address:
+
+94-1000 Branch St.,
+Kapolei HI,
+91000
+***************
+Accountno: 3000
+Name: Cole Du
+Address:
+
+91-3000 Cane St.,
+Pearl City HI,
+96700
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+quit    quit
+Saving database to database.txt
+Quitting program 
+]0;rramos26@uhx02:~/project2uhx02:/home/r/rramos26/project2% ./project_debug
+/****DEBUG: Entered llist constructor
+/****DEBUG: filename: database.txt
+/****DEBUG: readfile called
+DEBUG: addRecord() called. Record added.
+DEBUG: Account Number: 1000
+DEBUG: Name: Adam Lee
+DEBUG: Address: 94-1000 Branch St.,
+Kapolei HI,
+91000
+DEBUG: addRecord() called. Record added.
+DEBUG: Account Number: 3000
+DEBUG: Name: Cole Du
+DEBUG: Address: 91-3000 Cane St.,
+Pearl City HI,
+96700
+/*****DEBUG MODE ON*****/
+Welcome to the Bank Database program
+
+This program lets you to manage customer bank information. 
+
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+printall
+
+Printing All Records
+
+/****DEBUG: printAllRecords called
+***************
+Accountno: 1000
+Name: Adam Lee
+Address:
+
+94-1000 Branch St.,
+Kapolei HI,
+91000
+***************
+Accountno: 3000
+Name: Cole Du
+Address:
+
+91-3000 Cane St.,
+Pearl City HI,
+96700
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+add
+You are now using add command
+Enter a positive Integer:
+2000
+Enter name:
+Ben Rei
+Enter Address and type '/' followed by enter to finish 
+91-1234 Jame St.,
+Millilani HI,
+9323  120/
+
+Adding account: 2000 to database
+DEBUG: addRecord() called. Record added.
+DEBUG: Account Number: 2000
+DEBUG: Name: Ben Rei
+DEBUG: Address: 91-1234 Jame St.,
+Millilani HI,
+93120
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+printall
+
+Printing All Records
+
+/****DEBUG: printAllRecords called
+***************
+Accountno: 1000
+Name: Adam Lee
+Address:
+
+94-1000 Branch St.,
+Kapolei HI,
+91000
+***************
+Accountno: 2000
+Name: Ben Rei
+Address:
+
+91-1234 Jame St.,
+Millilani HI,
+93120
+***************
+Accountno: 3000
+Name: Cole Du
+Address:
+
+91-3000 Cane St.,
+Pearl City HI,
+96700
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+delete
+Enter a positive Integer:
+2000
+
+Deleting record with accountno: 2000
+
+/****DEBUG: deleteRecord called
+/****DEBUG: delete accountno: 2000
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+printall
+
+Printing All Records
+
+/****DEBUG: printAllRecords called
+***************
+Accountno: 1000
+Name: Adam Lee
+Address:
+
+94-1000 Branch St.,
+Kapolei HI,
+91000
+***************
+Accountno: 3000
+Name: Cole Du
+Address:
+
+91-3000 Cane St.,
+Pearl City HI,
+96700
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+delete
+Enter a positive Integer:
+1000
+
+Deleting record with accountno: 1000
+
+/****DEBUG: deleteRecord called
+/****DEBUG: delete accountno: 1000
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+printall
+
+Printing All Records
+
+/****DEBUG: printAllRecords called
+***************
+Accountno: 3000
+Name: Cole Du
+Address:
+
+91-3000 Cane St.,
+Pearl City HI,
+96700
+
+
+Commands:
+
+add: Add a new record in the database.
+printall: Print all records in the database.
+find: Find record(s) with a specified account #.
+delete: Delete existing record(s) from the database using the
+account # as a key.
+quit: Quit the program.
+
+Enter your command: 
+add   quit    quit
+Saving database to database.txt
+Quitting program 
+/****DEBUG: llist destructor called
+/****DEBUG: writefile called
+/****DEBUG: cleanup called
+]0;rramos26@uhx02:~/project2uhx02:/home/r/rramos26/project2% exit
+exit
+
+Script done on Sat 20 Apr 2024 04:30:58 PM HST
